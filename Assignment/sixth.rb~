@@ -83,20 +83,11 @@ else
 end
 
 def sort_array(arr)
-minv = 0
-mink = ""
-i=1
+min = 0
+i=0
 r=0
-tempk=""
-tempv=0
-minv = arr[0].to_h.values
-mink = arr[0].to_h.keys
+min = arr[0].values
 while i<arr.size
-if(min>arr[i].to_h.values)
-	tempk = arr[i].to_h.keys
-	tempv  = arr[i].to_h.values
-	arr[i].to_h.keys = mink
-	arr[i].to_h.values = minv
 
 
 
