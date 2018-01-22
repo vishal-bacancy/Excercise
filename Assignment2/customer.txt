@@ -9,3 +9,5 @@
 5:asd asd :98765413
 45:jd jd:98765343
 20:vivek oberoi:9876543210
+14:salman khan:9876543210
+15:sahrukh khan:987654321

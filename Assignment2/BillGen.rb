@@ -235,7 +235,7 @@ case i
 			for i in 0..bill.size-1
 
 				#p bill[i].bill_pro.to_s
-				puts bill[i].bill_pro.to_s.ljust(15)+"  "+bill[i].price.to_s.ljust(7)+"       "+bill[i].quan.to_s.ljust(4)+"   "+bill[i].gst.to_s.ljust(4)+" "+(((((bill[i].price.to_f*bill[i].quan.to_i))*bill[i].gst.to_f)/100)+bill[i].price.to_f).to_s
+				puts bill[i].bill_pro.to_s.ljust(15)+"  "+bill[i].price.to_s.ljust(7)+"       "+bill[i].quan.to_s.ljust(4)+"   "+bill[i].gst.to_s.ljust(4)+" "+(((((bill[i].price.to_f * bill[i].quan.to_f))*bill[i].gst.to_f)/100)+bill[i].price.to_f).to_s
 		
 				mtot+=((((bill[i].price.to_f*bill[i].quan.to_i))*bill[i].gst.to_f)/100)+bill[i].price.to_f
 

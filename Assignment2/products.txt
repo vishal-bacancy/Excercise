@@ -10,3 +10,5 @@
 10:Speaker:2500:10 
 11:pizza:300:5.0
 5:oop book:850:5.0
+14:masala dhosa:200:5.0
+25:laptop:28000:25.0
